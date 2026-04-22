@@ -1,0 +1,1 @@
+# ameotokotoy.github.io
