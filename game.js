@@ -75,7 +75,7 @@
   // 幅は目安として 300 にしていますが、画像アスペクトに合わせて自動で縮尺されます。
   // 表示高さを約150pxにするため、player.h を 75 に設定（表示高さ = player.h * 2 = 約150px）
   // 幅は現在 300 のまま維持していますが、必要なら幅も調整できます。
-  const player = {w:300, h:70, x:0, y:0, speed:420, vx:0};
+  const player = {w:300, h:50, x:0, y:0, speed:420, vx:0};
   function resetPlayer(){
     player.x = width/2 - player.w/2;
     player.y = height - player.h - 18;
